@@ -1,0 +1,47 @@
+/* add styles here */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background: transparent url(../images/b.jpg) no-repeat 50% 50%;
+  font-family: 'Just Me Again Down Here', arial, serif;
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+
+h1 {
+  text-align: center;  
+  font-size: 150px;
+  font-weight: normal;
+  cursor: normal;
+  color: #333;
+  text-shadow: 0 2px 3px #555;
+}
+
+.contacts {
+  padding-top: 20px;
+  color: black;
+  text-shadow: none;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #fff),
+    color-stop(1, rgba(255,255,255,0))
+  );
+  background: -moz-linear-gradient(
+    center bottom,
+    #fff 0%,
+    rgba(255,255,255,0) 100%
+  );
+  font-size: 30px;
+}
